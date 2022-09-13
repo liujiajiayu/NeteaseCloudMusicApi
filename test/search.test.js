@@ -7,7 +7,6 @@ describe('测试搜索是否正常', () => {
     const qs = {
       keywords: '海阔天空',
       type: 1,
-      cookie: config.anonymous_token,
     }
     axios
       .get(`${host}/search`, {
